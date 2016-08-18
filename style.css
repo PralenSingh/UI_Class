@@ -1,0 +1,10 @@
+a{color: red;}
+a:link{
+    color: red;
+}
+h1 {color:red}
+body {
+    background-color:plum;
+}
+.tbl-container table, .tbl-container th, .tbl-container td{
+    border: 1px solid yellow; background-color: black; color: azure}
