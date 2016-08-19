@@ -1,0 +1,31 @@
+8/19/2016
+MEAN
+m-
+e-
+a-
+n-
+
+Install Node.js(LTS version)
+-go to cmd
+-check the verion -node -v enter
+
+#Create new dirc in uiclass directory project 4 (node package manager)
+-access cmd from there and enter npm init ie npm init enter- this will create pacage.json(package.json has 2 dependencies)
+-select all the default values and kep on entering till the end
+
+-in cmd
+-npm install --save bootstrap@3 enter or npm install  bootstrap@3 --save enter
+it will create the new folder node_modules(3 folders) in porject4 folder
+next step
+-npm install angular enter (here no --save hence it doesnt save the angular folder)
+-npm install --save jquery enter
+-npm install --dev jquery
+
+delete the node_module from project4 folder
+then do
+-npm install enter
+it will create the node_module again
+
+Another manager is bower
+-bower enter(it creates bower.c)(replace bower in place of npm in above command)
+it is also a component manager. we have to install  it first.
