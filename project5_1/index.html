@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Project5
+        </title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    </head>
+<body>
+    <form name="form" method="post">
+        <table border=2 class="table table-hover table-striped">
+            <tbody>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fname" id="fname" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="Lname" id="Lname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="ThirdGender">ThirdGender</td>
+            </tr>
+                <td>Country</td>
+                <td><select name="Country">
+                    <option value="">Select a Country</option>
+                    <option value="Nep">Nepal</option>
+                    <option value="Ind">India</option>
+                    <option value="Chi">China</option>
+                    </select>
+                </td>
+            <tr>
+                <td>Classes Taken</td>
+                <td><input type="checkbox" name="class" value="Java">Java<br>
+                    <input type="checkbox" name="class" value="UI">UI<br>
+                    <input type="checkbox" name="class" value="C#">C#<br>
+                    <input type="checkbox" name="class" value="VMWare">VMWare</td>
+            </tr>
+                <button class="btn btn-primary"></button>
+            </tbody>
+        </table>
+    </form>
+    
+    <hr>
+    
+    <form name="form1" method="post">
+        <div class="table table-hover table-bordered table-striped" >
+            
+        <div class="row">
+            <div class="col-md-4">First Name</div>
+            <div class="col-md-8"><input type="text" name="fname" id="fname" placeholder="Enter First Name"></div>
+        </div>
+            
+        <div class="row">
+            <div class="col-md-4">Last Name</div>
+            <div class="col-md-8"><input type="text" name="Lname" id="Lname" placeholder="Enter Last Name"></div>
+        </div>
+            
+        <div class="row">
+            <div class="col-md-4">Gender</div>
+               <div class="col-md-2"><input type="radio" name="gender" value="male">Male</div>
+               <div class="col-md-2"><input type="radio" name="gender" value="Female">Female</div>
+               <div class="col-md-2"><input type="radio" name="gender" value="ThirdGender">ThirdGender</div>
+        </div>
+           
+        <div class="row">
+            <div class="col-md-4">Country</div>
+                <div class="col-md-4"><select name="Country">
+                    <option value="">Select a Country</option>
+                    <option value="Nep">Nepal</option>
+                    <option value="Ind">India</option>
+                    <option value="Chi">China</option>
+                    </select>
+               </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">Classes Taken</div>
+               <div class="col-md-4"><input type="checkbox" name="class" value="Java">Java<br>
+                    <input type="checkbox" name="class" value="UI">UI<br>
+                    <input type="checkbox" name="class" value="C#">C#<br>
+                    <input type="checkbox" name="class" value="VMWare">VMWare</div>
+        </div>
+           </div>  
+    </form>
+</body>
+</html>
