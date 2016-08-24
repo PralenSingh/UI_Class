@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+    
+    <body>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+         <form name="form" method="post">
+        <table border=2 class="table table-hover table-striped">
+            <tbody>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fname" id="fname" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="Lname" id="Lname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="ThirdGender">ThirdGender</td>
+            </tr>
+                <td>Country</td>
+                <td><select name="Country">
+                    <option value="">Select a Country</option>
+                    <option value="Nep">Nepal</option>
+                    <option value="Ind">India</option>
+                    <option value="Chi">China</option>
+                    </select>
+                </td>
+            <tr>
+                <td>Classes Taken</td>
+                <td><input type="checkbox" name="class" value="Java">Java<br>
+                    <input type="checkbox" name="class" value="UI">UI<br>
+                    <input type="checkbox" name="class" value="C#">C#<br>
+                    <input type="checkbox" name="class" value="VMWare">VMWare</td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js">
+        </script>
+        
+    </body>
+</html>
